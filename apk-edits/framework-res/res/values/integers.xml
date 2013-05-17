@@ -28,9 +28,9 @@
     <integer name="config_lowBatteryCloseWarningLevel">20</integer>
     <integer name="config_defaultNotificationLedOn">1000</integer>
     <integer name="config_defaultNotificationLedOff">9000</integer>
-    <integer name="config_notificationsBatteryLowARGB">-65536</integer>
-    <integer name="config_notificationsBatteryMediumARGB">-256</integer>
-    <integer name="config_notificationsBatteryFullARGB">-16711936</integer>
+    <integer name="config_notificationsBatteryLowARGB">0xffff0000</integer>
+    <integer name="config_notificationsBatteryMediumARGB">0xffff6000</integer>
+    <integer name="config_notificationsBatteryFullARGB">0xff00ff00</integer>
     <integer name="config_notificationsBatteryLedOn">125</integer>
     <integer name="config_notificationsBatteryLedOff">2875</integer>
     <integer name="config_longPressOnHomeBehavior">2</integer>
@@ -44,12 +44,12 @@
     <integer name="db_connection_pool_size">4</integer>
     <integer name="db_journal_size_limit">524288</integer>
     <integer name="db_wal_autocheckpoint">100</integer>
-    <integer name="config_downloadDataDirSize">256</integer>
+    <integer name="config_downloadDataDirSize">100</integer>
     <integer name="config_MaxConcurrentDownloadsAllowed">5</integer>
     <integer name="config_downloadDataDirLowSpaceThreshold">10</integer>
     <integer name="config_cursorWindowSize">2048</integer>
     <integer name="config_ntpTimeout">20000</integer>
-    <integer name="config_networkPolicyDefaultWarning">10</integer>
+    <integer name="config_networkPolicyDefaultWarning">2048</integer>
     <integer name="config_maxResolverActivityColumns">2</integer>
     <integer name="config_screenOnAnimation">-1</integer>
     <integer name="config_backKillTimeout">2000</integer>
