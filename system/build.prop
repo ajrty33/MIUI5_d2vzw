@@ -13,7 +13,7 @@ ro.build.user=darklichny
 ro.build.host=miui
 ro.build.tags=test-keys
 ro.product.model=SCH-I535
-ro.product.brand=samsung
+ro.product.brand=Verizon
 ro.product.name=d2vzw
 ro.product.device=d2vzw
 ro.product.board=MSM8960
@@ -41,19 +41,15 @@ rild.libargs=-d /dev/smd0
 # Fields for custom RIL
 # MAX PROP NAME is 31 chars --|
 ro.telephony.ril_class=SamsungCDMAQualcommRIL
-gsm.sim.operator.alpha = sprint
-gsm.sim.operator.numeric = 310120
-gsm.sim.operator.iso-country = us
-gsm.operator.alpha = sprint
-gsm.operator.numeric = 310120
-gsm.operator.iso-country = us
-ro.cdma.home.operator.numeric=310120
-ro.cdma.home.operator.alpha=Sprint
+ro.cdma.home.operator.numeric=310004
+ro.cdma.home.operator.alpha=Verizon
+ro.cdma.subscribe_on_ruim_ready=true
 ro.telephony.default_network=8
 keyguard.no_require_sim=true
-DEVICE_PROVISIONED=0
+DEVICE_PROVISIONED=1
 telephony.lteOnCdmaDevice=1
 ro.config.svlte1x=true
+persist.radio.no_wait_for_card=1
 #
 # ADDITIONAL_BUILD_PROPERTIES
 #
@@ -89,8 +85,8 @@ ril.subscription.types=NV,RUIM
 ro.telephony.ril.v3=skipnullaid
 debug.sf.hw=1
 debug.egl.hw=1
-debug.composition.type=gpu
-debug.mdpcomp.maxlayer=2
+debug.composition.type=dyn
+debug.mdpcomp.maxlayer=3
 debug.mdpcomp.logs=0
 dalvik.vm.heapstartsize=8m
 dalvik.vm.heapgrowthlimit=64m
