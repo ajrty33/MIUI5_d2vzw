@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/callCardInfoBar_Double" android:background="@drawable/incall_callcard_bg_first_double_miui" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/call_card_content_height_miui" android:layout_marginLeft="10.0dip" android:layout_marginTop="@miui:dimen/android_status_bar_height" android:layout_marginRight="10.0dip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/callCard_First" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <LinearLayout android:gravity="left" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <com.android.phone.MiuiAdaptiveTextView android:textAppearance="@style/Miui.TextAppearance.Name.Secondary" android:ellipsize="start" android:id="@id/callCardName_First" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textAppearance="@style/Miui.TextAppearance.PhoneNumber" android:ellipsize="end" android:id="@id/callCardPhoneNumber_First" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:singleLine="true" android:layout_weight="1.0" />
+                    <TextView android:textAppearance="@style/Miui.TextAppearance.Telocation" android:ellipsize="end" android:id="@id/callCardTelocation_First" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="180.0dip" android:singleLine="true" />
+                </LinearLayout>
+            </LinearLayout>
+            <Button android:layout_gravity="center" android:id="@id/callCardConferenceManageButton_First" android:background="@drawable/incall_button_conference_manage_miui" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
+            <LinearLayout android:gravity="right" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:minWidth="55.0dip">
+                <TextView android:textAppearance="@style/Miui.TextAppearance.ElapsedTime" android:id="@id/callCardCallStatus_First" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                <ImageView android:id="@id/callCardCallStatusImage_First" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/incall_call_status_ongoing_miui" />
+                <TextView android:textAppearance="@style/Miui.TextAppearance.ElapsedTime" android:id="@id/callCardElapsedTime_First" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/callCard_Second" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <LinearLayout android:gravity="left" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <com.android.phone.MiuiAdaptiveTextView android:textAppearance="@style/Miui.TextAppearance.Name.Secondary" android:ellipsize="start" android:id="@id/callCardName_Second" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textAppearance="@style/Miui.TextAppearance.PhoneNumber" android:ellipsize="end" android:id="@id/callCardPhoneNumber_Second" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:singleLine="true" android:layout_weight="1.0" />
+                    <TextView android:textAppearance="@style/Miui.TextAppearance.Telocation" android:ellipsize="end" android:id="@id/callCardTelocation_Second" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="180.0dip" android:singleLine="true" />
+                </LinearLayout>
+            </LinearLayout>
+            <Button android:layout_gravity="center" android:id="@id/callCardConferenceManageButton_Second" android:background="@drawable/incall_button_conference_manage_miui" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
+            <LinearLayout android:gravity="right" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:minWidth="55.0dip">
+                <TextView android:textAppearance="@style/Miui.TextAppearance.ElapsedTime" android:id="@id/callCardCallStatus_Second" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                <ImageView android:id="@id/callCardCallStatusImage_Second" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/incall_call_status_ongoing_miui" />
+                <TextView android:textAppearance="@style/Miui.TextAppearance.ElapsedTime" android:id="@id/callCardElapsedTime_Second" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

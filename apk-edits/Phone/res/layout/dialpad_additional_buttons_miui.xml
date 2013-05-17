@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/dialpadAdditionalButtons" android:background="@drawable/dialpad_additional_bg_miui" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textSize="20.0sp" android:textColor="@*android:color/white" android:gravity="center" android:id="@id/backButton" android:background="@drawable/emergency_call_button_bg_miui" android:layout_width="0.0px" android:layout_height="fill_parent" android:text="@string/back_miui" android:layout_weight="1.0" />
+    <ImageButton android:state_enabled="false" android:gravity="center" android:id="@id/dialButton" android:background="@null" android:layout_width="0.0px" android:layout_height="fill_parent" android:src="@drawable/emergency_dial_action_miui" android:layout_weight="1.0" android:contentDescription="@string/description_dial_button" />
+    <ImageButton android:state_enabled="false" android:gravity="center" android:id="@id/deleteButton" android:background="@drawable/emergency_call_button_bg_miui" android:layout_width="0.0px" android:layout_height="fill_parent" android:src="@drawable/emergency_dialpad_delete_btn_miui" android:layout_weight="1.0" android:contentDescription="@string/description_delete_button" />
+</LinearLayout>

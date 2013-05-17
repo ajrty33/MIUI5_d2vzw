@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/incall_manage_conference_list_item_bg_miui" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/conferenceCallerDisconnect" android:contentDescription="@string/onscreen_end_call_text_miui" style="@style/Miui.Button.HangupInConference" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="1.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_weight="1.0">
+        <TextView android:textAppearance="@style/Miui.TextAppearance.Primary" android:textColor="@color/call_card_name_text_color_miui" android:id="@id/conferenceCallerName" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/Miui.TextAppearance.Secondary" android:textColor="@color/call_card_info_text_color_miui" android:ellipsize="end" android:id="@id/conferenceCallerNumber" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+            <TextView android:textAppearance="@style/Miui.TextAppearance.Secondary" android:textColor="@color/call_card_info_text_color_miui" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/conferenceCallerNumberTelocation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:maxWidth="180.0dip" android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+    <Button android:id="@id/conferenceCallerSeparate" android:text="@string/separate_from_conference_miui" android:contentDescription="@string/go_private_miui" style="@style/Miui.Button.SeparateFromConference" />
+</LinearLayout>

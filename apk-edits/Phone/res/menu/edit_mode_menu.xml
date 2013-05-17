@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/edit_mode_menu_delete" android:id="@id/edit_mode_delete" android:title="@string/remove_miui" android:showAsAction="always|withText" />
+</menu>

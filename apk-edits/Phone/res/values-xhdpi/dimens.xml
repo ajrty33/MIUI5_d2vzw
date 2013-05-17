@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="glowpadview_target_placement_radius_miui">140.0dip</dimen>
+    <dimen name="call_card_content_height_miui">132.0dip</dimen>
+    <dimen name="call_card_photo_layout_miui">100.0dip</dimen>
+    <dimen name="incall_answer_widget_vertical_sliding_bar_height_miui">85.0dip</dimen>
+</resources>

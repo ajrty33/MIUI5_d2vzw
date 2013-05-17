@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:prvandroid="http://schemas.android.com/apk/prv/res/android">
+    <com.android.phone.MiuiInCallAnswerWidget android:id="@id/inCallAnswerWidgetVertical" android:background="@drawable/incall_sliding_panel_bg_miui" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/incall_answer_widget_vertical_sliding_panel_height_miui" android:layout_marginBottom="@dimen/incall_answer_widget_vertical_sliding_panel_bottom_margin_miui" android:layout_alignParentBottom="true">
+        <LinearLayout android:gravity="top|center" android:orientation="vertical" android:id="@id/incomingCallWidgetInCall" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <Button android:id="@id/answerButton" android:layout_marginTop="20.0dip" android:text="@string/answer_miui" style="@style/Miui.Button.Answer" />
+            <Button android:id="@id/ignoreButton" android:layout_marginTop="15.0dip" android:text="@string/ignore_miui" style="@style/Miui.Button.Ignore" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/incomingCallWidgetMain" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/inCallSlidingGreenBar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/incall_sliding_bar_bg_miui" android:scaleType="fitXY" />
+            <ImageView android:id="@id/inCallSlidingBarLight" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/incall_sliding_bar_light_miui" android:scaleType="fitXY" />
+            <ImageView android:layout_gravity="top|center" android:id="@id/inCallSlidingHintAnim" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/incall_answer_widget_vertical_sliding_hint_anim_margin_top_miui" android:src="@drawable/incall_sliding_panel_hint_anim_miui" />
+            <View android:background="@drawable/incall_sliding_bar_separator" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="@dimen/incall_answer_widget_vertical_sliding_bar_height_miui" />
+            <LinearLayout android:gravity="center" android:layout_gravity="top|center" android:orientation="vertical" android:id="@id/inCallSlidingBar" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="@dimen/incall_answer_widget_vertical_sliding_bar_height_miui">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sliding_down_hint_miui" style="@style/Miui.TextAppearance.SlidingBar" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/sliding_up_hint_miui" android:alpha="0.5" style="@style/Miui.TextAppearance.SlidingBar.Small" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/rejectButtonsMain" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/incall_answer_widget_vertical_sliding_bar_height_miui">
+                <Button android:id="@id/rejectWithSmsButton" android:layout_marginTop="20.0dip" android:text="@string/hangup_sms_miui" style="@style/Miui.Button.RejectViaSms" />
+                <Button android:id="@id/rejectButton" android:layout_marginTop="15.0dip" style="@style/Miui.Button.Reject" />
+            </LinearLayout>
+        </FrameLayout>
+    </com.android.phone.MiuiInCallAnswerWidget>
+    <TextView android:textAppearance="@style/Miui.TextAppearance.SlidingTarget" android:gravity="bottom|center" android:id="@id/slidingDownTargetHint" android:background="@drawable/incall_sliding_down_target_bg_miui" android:paddingBottom="5.0dip" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sliding_target_hint_miui" android:layout_alignParentBottom="true" />
+</RelativeLayout>
