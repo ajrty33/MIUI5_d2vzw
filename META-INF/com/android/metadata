@@ -1,0 +1,3 @@
+post-build=d2spr-user 4.0.4 IMM76D L710VPALG2 release-keys
+post-timestamp=1352798398
+pre-device=d2spr

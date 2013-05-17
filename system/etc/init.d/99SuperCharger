@@ -1,0 +1,2 @@
+	echo $scminfree > /sys/module/lowmemorykiller/parameters/minfree;
+sh /data/99SuperCharger.sh;

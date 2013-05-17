@@ -1,0 +1,2 @@
+Initial Commit 3.4.12.3e
+-Removed DataFix and VideoEditor.apk.

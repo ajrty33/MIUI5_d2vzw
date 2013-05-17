@@ -1,0 +1,13 @@
+#!/system/xbin/sh
+
+# Sweep2Wake
+# possible values:
+# 0 = 关闭
+# 1 = 开
+# 2 = 开和背景灯
+SWEEP2WAKE=0
+
+### 下面的不可以更改 ###
+
+$L "setting sweep2wake to ${SWEEP2WAKE}"
+echo ${SWEEP2WAKE} > /sys/android_touch/sweep2wake

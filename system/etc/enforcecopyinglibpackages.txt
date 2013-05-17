@@ -1,0 +1,8 @@
+7
+com.alipay.android.app
+com.xiaomi.gamecenter
+com.sogou.inputmethod.mi
+com.xiaomi.shop
+com.miui.video
+com.miui.voiceassist
+com.miui.weather2
