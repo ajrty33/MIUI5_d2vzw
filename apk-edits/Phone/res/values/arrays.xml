@@ -83,6 +83,10 @@
         <item>GSM only</item>
         <item>GSM/WCDMA preferred</item>
     </string-array>
+    <string-array name="preferred_network_mode_choices_lte_gsm">
+        <item>LTE/GSM/WCDMA</item>
+        <item>GSM/WCDMA preferred</item>
+    </string-array>
     <string-array name="preferred_network_mode_values">
         <item>7</item>
         <item>6</item>
@@ -98,8 +102,12 @@
         <item>CDMA</item>
     </string-array>
     <string-array name="preferred_network_mode_values_lte">
-        <item>7</item>
+        <item>8</item>
         <item>4</item>
+    </string-array>
+    <string-array name="preferred_network_mode_values_lte_gsm">
+        <item>9</item>
+        <item>0</item>
     </string-array>
     <string-array name="list_language_entries">
         <item>English</item>
@@ -128,7 +136,7 @@
         <item>2</item>
     </string-array>
     <string-array name="cdma_subscription_choices">
-        <item>UIM</item>
+        <item>RUIM/SIM</item>
         <item>NV</item>
     </string-array>
     <string-array name="cdma_subscription_values">
