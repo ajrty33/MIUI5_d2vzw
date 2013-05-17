@@ -155,6 +155,7 @@ set_perm_recursive(0, 2000, 0755, 0644, "/system/vendor");
 set_perm(0, 0, 0644, "/system/vendor/etc/audio_effects.conf");
 set_perm(0, 0, 0644, "/system/vendor/firmware/libpn544_fw.so");
 set_perm_recursive(0, 2000, 0755, 0755, "/system/xbin");
+set_perm(0, 0, 06755, "/system/xbin/invoke-as");
 set_perm(0, 0, 06755, "/system/xbin/busybox");
 set_perm(0, 0, 06755, "/system/xbin/librank");
 set_perm(0, 0, 06755, "/system/xbin/procmem");
